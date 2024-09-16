@@ -23,5 +23,12 @@ namespace CalculatorClassLibrary.Tests
             int result = Calculator.Subtract(10, 5);
             Assert.AreEqual(5, result);
         }
+
+        [TestMethod()]
+        public void MultiplyTest()
+        {
+            int result = Calculator.Multiply(10,2); 
+            Assert.AreEqual(20, result);
+        }
     }
 }

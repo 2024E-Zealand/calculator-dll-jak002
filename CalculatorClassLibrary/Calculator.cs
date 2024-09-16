@@ -23,5 +23,13 @@
         /// <param name="y">Number to subtract</param>
         /// <returns></returns>
         public static int Subtract(int x, int y) { return x - y; }
+
+        /// <summary>
+        /// Takes one number, then takes that number again, then takes that number again etc as often as specified in the other number.
+        /// </summary>
+        /// <param name="basenumber">Number to be mulitplied</param>
+        /// <param name="factor">How many times the first number is multiplied</param>
+        /// <returns></returns>
+        public static int Multiply(int basenumber, int factor) { return basenumber * factor; }
     }
 }
