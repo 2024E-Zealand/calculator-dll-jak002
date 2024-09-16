@@ -15,5 +15,13 @@
         {
             return x + y;
         }
+
+        /// <summary>
+        /// Takes one number, takes another number, subtracts the other number from the first number, and returns the number that isn't the number that you subtracted from the first number but is instead the number that remains after subtracting one number from the other. i think
+        /// </summary>
+        /// <param name="x">Initial number</param>
+        /// <param name="y">Number to subtract</param>
+        /// <returns></returns>
+        public static int Subtract(int x, int y) { return x - y; }
     }
 }
