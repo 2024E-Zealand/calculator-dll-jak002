@@ -31,5 +31,13 @@
         /// <param name="factor">How many times the first number is multiplied</param>
         /// <returns></returns>
         public static int Multiply(int basenumber, int factor) { return basenumber * factor; }
+
+        /// <summary>
+        /// Divides the first number by the second number. Do note that it returns an int, so if you expect fractions, sorry: this calculator is a big dumb
+        /// </summary>
+        /// <param name="basenumber">Number to be divided</param>
+        /// <param name="factor">Division factor</param>
+        /// <returns></returns>
+        public static int Divide(int basenumber, int factor) { return (basenumber / factor); }
     }
 }

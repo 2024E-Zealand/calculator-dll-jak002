@@ -30,5 +30,10 @@ namespace CalculatorClassLibrary.Tests
             int result = Calculator.Multiply(10,2); 
             Assert.AreEqual(20, result);
         }
+        [TestMethod()]
+        public void DivideTest() 
+        {
+            int result = Calculator.Divide(10,2); Assert.AreEqual(5, result);
+        }
     }
 }
