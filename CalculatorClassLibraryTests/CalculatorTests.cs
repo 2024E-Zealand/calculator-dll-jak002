@@ -35,5 +35,11 @@ namespace CalculatorClassLibrary.Tests
         {
             int result = Calculator.Divide(10,2); Assert.AreEqual(5, result);
         }
+        [TestMethod()]
+        public void MysteryTest()
+        {
+            string result = Calculator.MysteryFunction(5, 1, 5, 1, "bruno", "please", false);
+            Assert.AreEqual(result, "6");
+        }
     }
 }

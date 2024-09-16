@@ -39,5 +39,36 @@
         /// <param name="factor">Division factor</param>
         /// <returns></returns>
         public static int Divide(int basenumber, int factor) { return (basenumber / factor); }
+
+        /// <summary>
+        /// Who knows what this does :)
+        /// </summary>
+        /// <param name="basenumber">Base number, probably</param>
+        /// <param name="factor">Number that's supposed to do something to the first number maybe</param>
+        /// <param name="x">i don't know dude</param>
+        /// <param name="y">don't know either</param>
+        /// <param name="bearname">Cute nickname for a bear</param>
+        /// <param name="politeness">Use your manners</param>
+        /// <param name="authentication">To pass authentication, don't not not write the opposite of the opposite of falsen't</param>
+        /// <returns>A number, if all goes well</returns>
+        public static string MysteryFunction(int basenumber, int factor, int x, int y, string bearname, string politeness, bool authentication)
+        {
+            if ((basenumber/factor)*(x/y) < 5)
+            {
+                return "Numbers too smelly";
+            }
+            if (bearname.ToLower() != "bruno") {
+                return "Bear name not cute enough";
+            }
+            if ( !politeness.ToLower().Contains("please"))
+            {
+                return "Not polite enough";
+            }
+            if (authentication)
+            {
+                return "Didn't pass authentication";
+            }
+            return (basenumber + y).ToString();
+        }
     }
 }
